@@ -25,10 +25,35 @@
             <legend>
                 <fieldset>Contate-nos</fieldset>
             </legend>
-            <label for="nome_usuario">Nome:</label>
-            <input type="text" name="nome_usuario" id="nome_usuario">
-            <label for="email_usuario">Email:</label>
-            <input type="text" name="email_usuario" id="email_usuario">
+            <div>
+             <label for="nome_usuario" >Nome:</label>
+             <input type="text" name="nome_usuario" id="nome_usuario" size="30" placeholder="Digite seu nome">
+            </div>
+            <div>
+             <label for="email_usuario">Email:</label>
+             <input type="text" name="email_usuario" id="email_usuario" size="30" placeholder="Digite seu email">
+           </div>
+           <div>
+            <label for="telefone_usuario">Telefone:</label>
+            <input type="text" name="telefone_usuario" id="telefone_usuario" size="30" placeholder="Digite seu telefone">
+           </div>
+           <div>
+            <label for="assunto_usuario">Assunto:</label>
+            <select name="opcoes" id="opcoes">
+                <option value="trocas">Trocas</option>
+                <option value="atendimento">Atendimento</option>
+                <option value="comercial">Comercial</option>
+                <option value="outros">Outros</option>
+            </select>
+           </div>
+           <div>
+            <input type="checkbox" name="desejo" id="desejo">
+            <label for="desejo">Desejo receber informações sobre a Livraria Livro Boom</label>
+           </div>
+           
+           <button type="submit">Enviar</button>
+           <button type="reset">Apagar</button>
+
 
         </form>
         
